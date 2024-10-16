@@ -3,9 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const ipInfoToken = import.meta.env.VITE_IP_INFO_TOKEN;
   const openWeatherKey = import.meta.env.VITE_OPEN_WEATHER_KEY;
 
-  console.log(import.meta.env.VITE_IP_INFO_TOKEN);
-  console.log(import.meta.env.VITE_OPEN_WEATHER_KEY);
-
   const $date = document.querySelector("#date");
   const $temperature = document.querySelector("#temperature > span");
   const $city = document.querySelector("#city");
